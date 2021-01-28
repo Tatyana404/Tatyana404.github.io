@@ -1,0 +1,96 @@
+.first-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 161px 0px 245px;
+  overflow-x: hidden;
+}
+.header-first-content {
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  opacity: 0.8;
+  text-align: center;
+  padding-bottom: 59px;
+  color: #000000;
+  border-top: 3px solid var(--color-border-first);
+  max-width: 1029px;
+  margin: 0 auto;
+  padding-top: 72px;
+  min-height: 36px;
+}
+.img-section-first-content {
+  min-height: 656px;
+  max-height: 656px;
+  max-width: 493px;
+}
+.max-width-padding-first-content {
+  max-width: 561px;
+}
+.link-first-content {
+  font-family: var(--main-font);
+  font-weight: var(--font-weight);
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  text-decoration: none;
+  color: #fa4a0c;
+  min-height: 36px;
+}
+.sub-header-first-content {
+  font-family: var(--main-font);
+  font-weight: var(--font-weight);
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  padding-top: 17px;
+  padding-bottom: 27px;
+  min-height: 114px;
+}
+.sub-content-first-section {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  min-height: 76px;
+}
+@media screen and (max-width: 768px) {
+  .first-content {
+    padding: 0px;
+  }
+  .header-first-content {
+    font-family: var(--main-font);
+    font-size: 24px;
+    padding-bottom: 49px;
+    margin-bottom: 65px;
+    color: #000000;
+    border-top: none;
+    border-bottom: 3px solid var(--color-border-first);
+    padding-top: 0px;
+  }
+  .content-first-section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .img-mobile-version1 {
+    min-height: 581px;
+    max-height: 581px;
+    max-width: 414px;
+  }
+  .max-width-padding-first-content {
+    padding: 0px 35px;
+  }
+  .sub-header-first-content {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    min-height: 228px;
+  }
+  .sub-content-first-section {
+    min-height: 152px;
+    padding-bottom: 17px;
+  }
+}

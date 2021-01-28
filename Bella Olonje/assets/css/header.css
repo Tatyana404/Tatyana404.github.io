@@ -1,0 +1,25 @@
+.content-header {
+  padding: 26px 47px 27px 90px;
+  min-height: 102px;
+}
+.logo-header {
+  max-width: 206px;
+  max-height: 102px;
+}
+.btn-header {
+  background: url(../icons/btn.png);
+  min-height: 16px;
+  min-width: 20px;
+  border: 0;
+  outline: none;
+}
+@media screen and (max-width: 768px) {
+  .content-header {
+    padding: 17px 23px 44px 25px;
+    min-height: 51px;
+  }
+  .logo-header {
+    max-width: 104px;
+    max-height: 52px;
+  }
+}
